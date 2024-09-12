@@ -37,10 +37,9 @@ header h1{
 
 header p{
     padding-bottom: 50px;
-    font-size: 1.5em;
 }
 
-header a, footer a{
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -67,13 +66,16 @@ section.normal{
 }
 
 section.imagem{
-    background: black no-repeat fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    background-color: rgb(61, 61, 61);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    
 }
 
 #img01{
-    background-position: center center;
+    background-position: right center;
     background-image: url(../imagens/background001.jpg);
 }
 
@@ -92,8 +94,6 @@ section.imagem p{
 }
 
 footer{
-    font-family: var(--fonte1);
-    font-size: 1.5em;
     text-align: center;
     color: white;
     background-color: black;
