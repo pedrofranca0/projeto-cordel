@@ -37,6 +37,7 @@ header h1{
 
 header p{
     padding-bottom: 50px;
+    font-size: 1.5em;
 }
 
 header a, footer a{
@@ -92,6 +93,7 @@ section.imagem p{
 
 footer{
     font-family: var(--fonte1);
+    font-size: 1.5em;
     text-align: center;
     color: white;
     background-color: black;
